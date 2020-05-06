@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ada.smartcitadel.ScrollingActivity2"
+    tools:showIn="@layout/activity_scrolling2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="inherit"
+            android:textSize="20sp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+
+            android:text="Obiectiv turistic unic in Europa, “TRASEUL CELOR TREI FORTIFICATII” ofera vizitatorilor posibilitatea de a calatori in timp de-a lungul a doua milenii, printre vestigiile a trei fortificatii, din trei epoci diferite, construite succesiv pe aceeasi locatie, fiecare noua cetate incluzand-o pe cea veche: Castrul Roman (106 d.Ch.), Cetatea Medievala (sec. XVI-XVII) si Cetatea Alba Carolina, fortificatie de tip Vauban (sec.XVIII).
+\n
+1	POARTA MONETARIEI \n
+2	POARTA DE SUD A CASTRULUI ROMAN \n
+3	TABARA MILITARA \n
+4	LOCURILE DE BELVEDERE \n
+5	TUNELUL DE ACCES CATRE PLATFORMA DE ARTILERIE \n
+6	PLATFORMA DE ARTILERIE \n
+7	CAMERA DE GARDA - SALA ARMELOR (CLUBUL RESTAURATORILOR) \n
+8	BASTIONUL “BETHLEM” \n
+9	CETATEA “ALBA CAROLINA” \n
+Avem convingerea ca, strabatand “TRASEUL CELOR TREI FORTIFICATII”, faceti o placuta calatorie in timp, va imbogatiti emotional si spiritual, fapt ce va va determina sa reveniti. " />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

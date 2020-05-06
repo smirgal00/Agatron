@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ada.smartcitadel.ScrollingActivity2"
+    tools:showIn="@layout/activity_scrolling2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="inherit"
+            android:textSize="20sp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+
+            android:text="Īn Evul Mediu, īn Transilvania existau numeroase locuri care aveau īn denumirea lor cuvāntul „furca“. Prin acesta se īntelegea tragerea īn teapa a condamnatului, care ramānea mai mult timp ca sa fie vazut de toti trecatorii. Pāna īn secolul al XVIII-lea toate satele, tārgurile si orasele aveau amenajate locuri de executie capitala ce se aflau pe īnaltimi lānga principalele artere de circulatie, de obicei la intrarile īn localitate. Potrivit istoricului Dan Anghel, asemenea locuri au ramas īn toponimia unor localitati sub diferite denumiri: „Dealul Furcilor”, „Locul Furcii”, „Magura Furcii”, „Poiana Furcii” mai rar “Dealul Spānzuratorilor” (deal din apropierea Brasovului). Confirmarea existentei acestor locuri de executie o gasim īn relatarea calatorului german Iacob Hiltebrandt care a calatorit īn Transilvania si a stat la Alba Iulia īn anii 1652 si 1656. Cei condamnati la pedeapsa capitala erau de obicei iobagi romāni, uneori pentru fapte minore ca braconajul, furturi minore de gaini sau capite de fān, ori pentru injurii aduse stapānului de pamānt.   ”Īn piata (Alba Iulia) era o spānzuratoare de lemn, de care atārna aproape īn fiecare zi de tārg saptamānal cāte un romān; funia de care erau spanzurati avea o lungime de un cot… Acesti romāni de rānd de conditie servila… sunt aspru pedepsiti īn Transilvania si trasi de obicei īn teapa, astfel ca se pot vedea aproape īnaintea tuturor oraselor, tārgurilor si satelor tarii astfel de spectacole īngrozitoare. Fata de moartea prin teapa sau par ei merg bucurosi la spānzuratoare cānd sunt osānditi spunānd ca si Cristos Māntuitorul lor a fost spānzurat (pe cruce)”, astfel descrie calatorul german ceea ce a vazut īn Transilvania. Pedapsa capitala, aplicata pentru orice furt ce depasea 20 de florini Uneori cei executati erau lasati mai multe zile ca sa poata fi vazuti de trecatori si uneori erau chiar īngropati īn apropierea locului de executie dupa  cum relateaza un document medieval brasovean „in der Mist bey dem Galgenberg” (īn gunoiul de pe Dealul Spānzuratorii). Sapaturi arheologice efectuate īn apropierea Cheilor Turenilor au identificat īn urma cu cātiva ani mormāntul unui spānzurat īnmormāntat īn apropierea unui astfel de loc. Istoricul  sustine ca cel mai cunoscut “Deal al Furcilor” din istoria Romāniei se gaseste la Alba Iulia, un platou situat la sud vest de oras, loc al supliciului conducatorilor rascoalei de la 1785, Horea, Closca si Crisan.  Executia lui Horea si Closca pe Dealul Furcilor de lānga Alba Iulia   ”Nu era un fapt neobisnuit īn evul mediu ca orasele si tārgurile mai importante sa aibe, pe lānga functionarii obisnuiti, si functia de calau, iar pedeapsa capitala se aplica cu usurinta pentru orice furt care depasea valoarea de 20 de florini reprezentānd valoarea a 5-6 oi. Īn functie de gravitatea faptei sau de toanele celor ce judecau, pedepsele puteau fi: condamnare la moarte (decapitare, tragere īn teapa, atārnarea īn furci, arderea pe rug, tragerea pe roata, mutilare (scoaterea ochilor, taierea limbii a urechilor sau a membrelor), bataie cu diferite obiecte, imobilizare īn butuci (caluda, obada). Pedeapsa cu moartea se aplica celor ce se revoltau īmpotriva stapānilor lor si a dregatorilor, pentru cei ce comiteau furturi mari, spargeri, adulter, viol, rapire de fete, crime. Meseria de calau era grea, acesta trebuia sa mimeze, sa prelugeasca agonia si chinurile condamnatului spre deliciul spectatorilor si al stapānilor, īn timpul executiei de la Alba Iulia cātiva nobili protestānd vehement pentru faptul ca Horea a fost ucis prea repede”, sustine Dan Anghel
+ " />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

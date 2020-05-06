@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ada.smartcitadel.ScrollingActivity2"
+    tools:showIn="@layout/activity_scrolling2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="inherit"
+            android:textSize="20sp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+
+            android:text="Poarta I: Ocrotita de zeul razboiului si de zeita frumusetii
+/n
+Situata la baza terasei pe care a fost ridicata Cetatea, poarta I este din piatra, are forma unui arc de triumf si este strapunsa de doua pietonale si un carosabil. Aceasta poarta impresioneaza mai ales prin decorul sculptural bogat, cu reprezentari in relief ale unor personaje legendare.
+/n
+Pe pilastrii centrali sunt plasate statuile lui Marte, zeul razboiului, si Venus, zeita frumusetii. Pe cei laterali sunt reprezentate doua bombarde cu teava scurta, iar pe centru se afla un soclu decorat cu volute, care sustine acvila bicefala, incoronata, cu monograma lui Carol al VI-lea. Aceasta monograma reprezinta emblema de stat a Imperiului Austriac si tine in gheare doua simboluri ale puterii: un sceptru si o sabie.
+/n
+Fatada exterioara cuprinde o scena legendara care ii are ca protagonisti pe Aeneas, fiul zeitei Afrodita si intemeietorul legendar al Romei, si pe tatal acestuia, Anchises din Troia. Aeneas il duce in spate pe Anchises dupa ce il salvase din incendiul izbucnit in Troia. In partea dreapta se afla Hercule in lupta cu Anteu. Legenda spune ca gigantul Anteu nu putea fi invins cat timp ramanea in contact cu mama sa, pamantul, asa ca Hercule l-a ridicat in brate pentru a-l putea ucide.
+/n
+Fatada interioara cuprinde, in relieful din partea stanga, o scena cu Hercule ucigand leul din Nemeea, un animal sangeros care teroriza locuitorii tinutului. In relieful situat deasupra accesului pietonal din partea dreapta este reprezentat un alt personal mitologic, Perseu, fiul lui Zeus si al lui Danae. Acesta tine capul retezat al Meduzei, iar la picioarele sale se afla corpul fara cap al Gorgonei." />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

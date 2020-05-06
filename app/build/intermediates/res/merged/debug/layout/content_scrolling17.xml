@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ada.smartcitadel.ScrollingActivity2"
+    tools:showIn="@layout/activity_scrolling2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="inherit"
+            android:textSize="20sp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+
+            android:text="Cetatea Alba Iulia a fost īn urma cu secole si cea mai de temut īnchisoare din Transilvania. Dintre miile de tarani īnchisi aici, unui au reusit sa evadeze. Cea mai spectaculoasa evadare a avut loc īn noaptea de 7 august 1785, cānd 31 de tarani implicati īn Rascoala lui Horea au scapat din carcera si au fugit īn munti. Dupa executia publica a lui Horea si Closca, pe „Dealul Furcilor“ din Alba Iulia, īn 28 februarie 1785, īn īnchisorile din Cetatea Alba Iulia au fost adusi īn fata comisiei austriece de ancheta peste patru sute de detinuti. Cei  īnchisi īn beciurile fortificatiei proveneau din toate colturile Transilvaniei. Pe lista finala a anchetatorilor austrieci figurau 120 de persoane condamnate la moarte. Potrivit istoricului Gheorghe Anghel, cei mai cunoscuti detinuti au fost: Popa Constantin din Criscior; Popa Hagi Crisanut din Bistra, om īnvatat cunoscut īn Muntii Apuseni, ambii condamnati la moarte prin tragere īn teapa; capitanii Vasile Zgārciu din Abrud si Iacob Toader din Vidra, condamnati tot prin tragere īn teapa. Pe lista era si Dumitru Todea, fost jude īn Rāul Mare (Albac), arestat si īnvinuit pentru tulburarile iscate cu ocazia tārgului de la Cīmpeni din 1782, tinut īn īnchisoarea comitelui Kemeny de la Galda de Jos, de peste doi ani. A fost condamnat la moarte prin taierea capului si a corpului īn patru bucati si sa se puna īn tepe īn localitatile Domeniului Minier de Sus. A mai fost īnvinuit si de faptul ca l-a sfatuit pe Horea sa duca petitiile satelor la īmparatul de la Viena, procurāndu-i 400 de florini, bani de drum. Celorlalti condamnati urma sa li se taie capul. Fiul lui Horea, Ionut, care avea 17 ani, a fost condamnat la un an de īnchisoare. Toti condamnatii au ramas īn īnchisorile de la Alba Iulia, urmānd ca īmparatul de la Viena, Iosif al II-lea, sa aprobe sentintele. Planul evadarii, pus īn aplicare īn patru zile Potrivit istoricului citat, condamnatii erau scosi īn fiecare zi, sub escorta, si pusi sa munceasca īn Cetate la curatenia strazilor, a santului Cetatii si la alte lucrari. Cum situatia a devenit tensionata, condamnatii au hotarāt sa evadeze. Planul a fost pus īn aplicare īn patru zile. Īn timp ce unii cāntau si fluierau, ca sa abata atentia paznicilor, ceilalti au reusit sa faca o spartura īn zidul Cetatii, pe lānga o fereastra pe care ziua au reusit sa o mascheze. Prin intermediul unei laptarese au reusit sa-l anunte pe parohul Nicolae Ratiu sa vina sa-i viziteze la īnchisoare. Īn ziua de 6 august, condamnatii i-au īmpartasit preotului taina lor de a evada, cerāndu-i sfatul. Preotul i-a binecuvāntat si le-a promis ca nu va divulga nimanui intentia lor. „Īn noaptea de 7 august 1785, pe la orele 2 din noapte, treizeci si unu de detinuti dintre care douazeci condamnati la moarte au evadat, unul cāte unul. Au coborāt pe o frānghie improvizata īn santurile Cetatii si de acolo au fugit īn padurea din apropiere. Unii au luat-o spre Zlatna, iar altii pe valea Muresului. Evadatii l-au luat īn contra vointei lui si pe Popa Hagi Crisanut ce avea peste 80 de ani, dar acesta s-a īntors dimineata īn Cetate“,  Gheorghe Anghel, istoric. Vestea evadarii detinutilor a produs o mare neliniste īn rāndul nobilimii si a functionarilor comitatelor si domeniului Zlatnei. Unii au īnceput sa se refugieze īn Cetatea de la Alba Iulia de frica reizbucnirii Rascoalei taranilor. Emisarii imperiali au primit de la Viena o misiune īn regim de urgenta: sa cutreiere satele din munti si sa anunte ca, daca condamnatii se vor īntoarce, sentintele lor vor fi revizuite. Īn doua saptamāni s-au predat 16 condamnati, iar pāna la sfārsitul lunii august 1785 s-au īntors toti. Prin interventia īmparatului de la Viena, condamnatii au scapat de pedeapsa cu moartea, dar s-au „ales“ cu trei ani munca silnica la lucrari publice. Cetatea Alba Carolina, „Kufstein-ul“ Transilvaniei Cercetarile istoricilor arata ca fortificatia ridicata de austrieci īn Alba Iulia, īn secolul al XVIII-lea, a avut rolul de asuprire a romānilor transilvaneni. Timp de aproape 180 de ani a fost cea mai severa carcera din Principatul Transilvaniei. Una dintre cele mai autorizate opinii legate de rolul de carcera a fortificatiei ridicate de habsburgi la Alba Iulia, īntre 1714-1738, apartine lui Geoge Baritiu, īn a sa lucrare „Parti alese din istoria Transilvaniei pe doua sute de ani din urma“. Reputatul istoric din Transilvania aprecia ca Cetatea Alba Carolina era ... „unicul punct fortificat asa, īncāt fara posesia aceluia sa nu poti fi sigur de posesiunea tarii īntregi”. Īn temnitele fortificatiei austriece si-au petrecut ultimele zile din viata si conducatorii Rascoalei de la 1784-1785, Horea, Closca si Crisan, dupa ce au fost prinsi prin tradare. Profesorul Ioan Plesa apreciaza ca, īn timpul Revolutiei de la 1848-1849, īn celulele Cetatii numarul detinutilor ajunsese la 7.860. Nu sunt putini cercetatorii care au facut o paralela īntre Cetatea-īnchisoare ridicata de austrieci la Alba Iulia, pe spatele iobagilor romāni, si Kufstein, fortareata austriaca īn care au fost „gazduitii“ razvratitii de la 1848-1849. " />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

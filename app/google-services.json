@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1074156980081",
+    "firebase_url": "https://android-login-3409c.firebaseio.com",
+    "project_id": "android-login-3409c",
+    "storage_bucket": "android-login-3409c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074156980081:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.agatron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074156980081-a51detc86dqkfv5fnbad6cqrqsaog880.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": " AIzaSyBuB0-OQTA4oZfIz5jbrwUdf01JIRYghzM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

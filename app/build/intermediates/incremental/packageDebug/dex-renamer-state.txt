@@ -1,0 +1,7 @@
+#Sat May 20 22:19:10 EEST 2017
+base.0=C\:\\Users\\Mihaela Mermezan\\Desktop\\Agatron\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a757d3664ee60046a18c5ecb082c5cfc11870134
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Mihaela Mermezan\\Desktop\\Agatron\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_096685de5a31446a7afaacc4114f9ce999e3b42e\\classes.dex
+base.1=C\:\\Users\\Mihaela Mermezan\\Desktop\\Agatron\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_096685de5a31446a7afaacc4114f9ce999e3b42e
+file.0=C\:\\Users\\Mihaela Mermezan\\Desktop\\Agatron\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a757d3664ee60046a18c5ecb082c5cfc11870134\\classes.dex

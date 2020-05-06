@@ -1,0 +1,8 @@
+AB-ST-GL-CL-MH-OB offset-each 06:00-07:50-12:00-14:20-16:00-18:00-19:30-23:30 lv-ld-lv-ls-ld-lv-ld-ld Livio_Dario
+OB-MH-CL-GL-ST-AB offset-each 05:10-06:40-09:00-13:10-15:10-17:10-18:50-21:10 ld-lv-ls-ld-lv-ld-ld-ld Livio_Dario
+AB-VN-VJ-CG offset-each 07:00-07:30-08:00-09:00-10:00-11:00-13:00-15:00-17:00-20:00 lv-lv-ld-lv-lv-lv-ld-ld-lv-ld Livio_Dario
+CG-VJ-VN-AB offset-each 06:00-06:40-08:00-09:00-10:00-12:00-13:00-15:00-17:00-20:00 lv-lv-ld-lv-lv-lv-ld-ld-lv-ld Livio_Dario
+AB-LN-SE offset-each 07:00-11:30-13:30-15:00-16:30-18:30 ld-lv-ld-ld-ld-ld Livio_Dario
+SE-LN-AB offset-each 06:00-08:30-12:30-13:50-15:30-17:30 ld-lv-ld-ld-ld-lv Livio_Dario
+AB-SD-ZN offset-each 07:00-09:00-11:00-13:00-15:00-17:00 lv-lv-lv-ld-ld-lv Livio_Dario
+ZN-SD-AB offset-each 05:30-06:40-09:00-11:00-12:00-14:30-16:00 lv-lv-ld-ld-ld-ld-ld Livio_Dario

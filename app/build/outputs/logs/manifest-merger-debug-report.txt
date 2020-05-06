@@ -1,0 +1,734 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:2:1-167:12
+	package
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#ANDROID.PERMISSION.SEND_SMS
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ded1ac1d2106c1d4eddc1baad9b4aac263d9a239\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ff7d5fae0765c07495cb4a4073590f89ca206f72\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\34bdb99162736d98da74c196a9f26581678d9ef0\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\56dae2174c1bb0d543ba1445d1753c2b55c24235\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\43f8b453cc18ca873b5ef030516a097dfb60cf57\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:17:22-69
+application
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:19:5-165:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\1aabc48a080b59002539c23eb2d3b586be5b1211\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\dbbc03c617a8a57dd4dd651780877b4fd0b90375\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mihaela Mermezan\.android\build-cache\d475d71c492698149347c0271ccd2ac1df0150f9\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c3f6e59f5ded5c1e10d8adc123c45c43e7027545\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ded1ac1d2106c1d4eddc1baad9b4aac263d9a239\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7fa1c11556580502d8628dd7cc33960ff7950878\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Mihaela Mermezan\.android\build-cache\b689807b1ae83b355f892803cc5c1ec3948a3819\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Mihaela Mermezan\.android\build-cache\f3cd3c16987dbadbea116abcee3260f62b970b69\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\c18ed5cb6797597015e2710f769ca543c2382528\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\2b0f1c655eda22ab9e104ac53d1d394c5c53fb9d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\8f7ba5a4a6dcb0400bf62112d95b198efb929518\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\2203fe240cffd7a79077baf2daacfe4a2ddc01bb\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\08b96cdbe9ec818ca9a2b74fade21728c59e0311\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\41592202fc3853edb5881c33eba326699e9b59de\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ff7d5fae0765c07495cb4a4073590f89ca206f72\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\93df57870d2febf2004a1d26677b9aa5d4b80c51\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5d8c60a687232ed6a11bbdbe2d9f159c1cf7db03\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\be8b53e078f9fd72e72088f8f4cdd7979d7a8ce0\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\87fd22c43c97fb2a7c8bafe4933ac8f1850e088c\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\34bdb99162736d98da74c196a9f26581678d9ef0\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\86f505605fecd7e892bb60782c99f8d812c56d4b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\56dae2174c1bb0d543ba1445d1753c2b55c24235\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\20246f4ef9bb3749b5535ac59d0ae48ca0c6858c\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\18b121a6c82b5155561d47fa979fcc8582930a10\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f8a83ba98bb53e58db4dba730785b955d8dcef66\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\4a2b395573fd8ccbe060dd6608d3be35e83f4ce2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\abb27a96b8b407a78b3135e87fe4927641aecca1\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\b3c846c3938e9702edbf7e5dc0275684b0846d49\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c61da37c5c81ccaf10952fb462bde10d48e956a6\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\43f8b453cc18ca873b5ef030516a097dfb60cf57\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f9c75d305bd9936c44848db45b5e1a1a034dc3c4\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5bcdf2e61efe48d85e51b1a92d28f7ce0d8ad720\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7bc37890c5c3656fe6194661404f3e62889b3d65\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.firebase:firebase-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\33492b19f311b65430f0e1f439f22c055597387f\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bec46e701a5e1365ceee315044d610c1022fa89a\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\d1b925b8316b09ddfd46070a22d61a84c4a55bfd\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\e2ddce317019866d748eee44dc94a47cdde50c2a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5c9732e9f31cf22dc4dbccc33d7153f05d1f5295\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\51c404320a4412f4feb2656e23e80ad94689d3f0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\b8003debc81b1acaf7b3491a4a4a668aec0a2a3c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\6c0f4b8896304769bbf79c7f1cf7817a862bc935\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\aafea28cc380313beb9452266cfa91a608a20b84\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\0d56e9352762203b6d113469a0841efbdfc82955\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\06d81dd290034c0d309d1f6d4bea60b75462dc16\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:22:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:24:9-35
+	android:roundIcon
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:23:9-48
+	android:allowBackup
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:21:9-43
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:25:9-40
+activity#com.example.lenovo.agatron.Splashscreen
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:26:9-34:20
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:27:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:32:27-74
+activity#com.example.lenovo.agatron.Main2Activity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:35:9-38:58
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:37:13-45
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:36:13-42
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:39:9-41:55
+	android:value
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:41:13-52
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:40:13-58
+activity#com.example.lenovo.agatron.MapsActivity2
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:43:9-45:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:44:13-42
+activity#com.example.lenovo.agatron.ScrollingActivity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:46:9-49:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:48:13-61
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:47:13-46
+activity#com.example.lenovo.agatron.Score
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:50:9-53:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:52:13-57
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:51:13-34
+activity#com.example.lenovo.agatron.Detalii
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:54:9-57:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:56:13-59
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:55:13-36
+activity#com.example.lenovo.agatron.ScrollingActivity2
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:58:9-61:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:60:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:59:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity3
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:64:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:63:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity5
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:66:9-69:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:68:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:67:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity6
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:70:9-73:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:72:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:71:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity7
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:74:9-77:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:76:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:75:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity8
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:78:9-81:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:80:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:79:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity9
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:82:9-85:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:84:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:83:13-47
+activity#com.example.lenovo.agatron.ScrollingActivity10
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:86:9-89:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:88:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:89:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:87:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity11
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:90:9-93:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:92:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:93:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:91:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity13
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:94:9-97:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:96:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:97:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:95:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity12
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:98:9-101:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:100:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:101:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:99:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity14
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:102:9-105:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:104:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:105:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:103:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity15
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:106:9-109:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:108:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:109:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:107:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity16
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:110:9-113:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:112:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:113:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:111:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity17
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:114:9-117:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:116:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:115:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity18
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:118:9-121:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:120:13-63
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:121:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:119:13-48
+activity#com.example.lenovo.agatron.ScrollingActivity4
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:122:9-125:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:124:13-62
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:123:13-47
+activity#com.example.lenovo.agatron.MainActivity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:126:9-129:68
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:128:13-50
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:129:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:127:13-41
+activity#com.example.lenovo.agatron.ascuns.BusPage
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:130:9-132:15
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:130:19-49
+activity#com.example.lenovo.agatron.Busful
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:133:9-135:14
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:134:13-38
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:133:19-41
+activity#com.example.lenovo.agatron.ascuns.AutocarPage
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:136:9-137:40
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:136:19-53
+activity#com.example.lenovo.agatron.ascuns.ConfirmPurchase
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:138:9-140:14
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:139:13-34
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:138:19-57
+activity#com.example.lenovo.agatron.ascuns.TicketHistory
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:141:9-143:14
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:142:9-39
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:141:19-55
+activity#com.example.lenovo.agatron.Harti
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:144:9-146:60
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:146:13-57
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:145:13-34
+activity#com.example.lenovo.agatron.TaxiPage
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:147:9-149:14
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:148:13-33
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:147:19-43
+activity#com.example.lenovo.agatron.FirebaseActivity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:150:9-153:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:152:13-59
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:153:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:151:13-45
+activity#com.example.lenovo.agatron.SignupActivity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:154:9-157:59
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:156:13-57
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:157:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:155:13-43
+activity#com.example.lenovo.agatron.ResetPasswordActivity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:158:9-161:68
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:160:13-66
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:161:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:159:13-50
+activity#com.example.lenovo.agatron.LoginActivity
+ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:162:9-164:68
+	android:label
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:163:13-57
+	android:theme
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:164:13-56
+	android:name
+		ADDED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml:162:19-48
+uses-sdk
+INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\1aabc48a080b59002539c23eb2d3b586be5b1211\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\80353bcbb368e537ef1e2555fabb71d1f4b90fae\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\dbbc03c617a8a57dd4dd651780877b4fd0b90375\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mihaela Mermezan\.android\build-cache\d475d71c492698149347c0271ccd2ac1df0150f9\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c3f6e59f5ded5c1e10d8adc123c45c43e7027545\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\8ca8297e495ad59bb6366e38fe6e100e0ec9bc09\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ded1ac1d2106c1d4eddc1baad9b4aac263d9a239\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\206f303bfc7868b0e146e1d6b14abba6a8762b18\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7fa1c11556580502d8628dd7cc33960ff7950878\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Mihaela Mermezan\.android\build-cache\b689807b1ae83b355f892803cc5c1ec3948a3819\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Mihaela Mermezan\.android\build-cache\f3cd3c16987dbadbea116abcee3260f62b970b69\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\c18ed5cb6797597015e2710f769ca543c2382528\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\2b0f1c655eda22ab9e104ac53d1d394c5c53fb9d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\8f7ba5a4a6dcb0400bf62112d95b198efb929518\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\2203fe240cffd7a79077baf2daacfe4a2ddc01bb\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\08b96cdbe9ec818ca9a2b74fade21728c59e0311\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\41592202fc3853edb5881c33eba326699e9b59de\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ff7d5fae0765c07495cb4a4073590f89ca206f72\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\1db9886cddb6141bc22c1c7df8335a28ffab4ded\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c9ebdf9dc79e39e344677e1e3026268784df0a34\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\971e4e2a66266208877a7a7c4bd57142552134bd\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\93baa0f33d465ba40c56c325c2c4a104e7e8a0a7\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\93df57870d2febf2004a1d26677b9aa5d4b80c51\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5d8c60a687232ed6a11bbdbe2d9f159c1cf7db03\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\be8b53e078f9fd72e72088f8f4cdd7979d7a8ce0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\87fd22c43c97fb2a7c8bafe4933ac8f1850e088c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\34bdb99162736d98da74c196a9f26581678d9ef0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\86f505605fecd7e892bb60782c99f8d812c56d4b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\56dae2174c1bb0d543ba1445d1753c2b55c24235\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\1900afb0ec7f84bb6b5b57d8bb8a8a00fe5c939c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\20246f4ef9bb3749b5535ac59d0ae48ca0c6858c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\18b121a6c82b5155561d47fa979fcc8582930a10\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f8a83ba98bb53e58db4dba730785b955d8dcef66\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\4a2b395573fd8ccbe060dd6608d3be35e83f4ce2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\abb27a96b8b407a78b3135e87fe4927641aecca1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\b3c846c3938e9702edbf7e5dc0275684b0846d49\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\9da0d3ca8ce9d7a6db31402c25e600e63175dc21\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c61da37c5c81ccaf10952fb462bde10d48e956a6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\43f8b453cc18ca873b5ef030516a097dfb60cf57\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f9c75d305bd9936c44848db45b5e1a1a034dc3c4\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\02196e076204ae9bbaa52e6a336537dd63556911\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5bcdf2e61efe48d85e51b1a92d28f7ce0d8ad720\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7bc37890c5c3656fe6194661404f3e62889b3d65\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\33492b19f311b65430f0e1f439f22c055597387f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bec46e701a5e1365ceee315044d610c1022fa89a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\d1b925b8316b09ddfd46070a22d61a84c4a55bfd\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\e2ddce317019866d748eee44dc94a47cdde50c2a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5c9732e9f31cf22dc4dbccc33d7153f05d1f5295\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\51c404320a4412f4feb2656e23e80ad94689d3f0\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\b8003debc81b1acaf7b3491a4a4a668aec0a2a3c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\6c0f4b8896304769bbf79c7f1cf7817a862bc935\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\aafea28cc380313beb9452266cfa91a608a20b84\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\0d56e9352762203b6d113469a0841efbdfc82955\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\06d81dd290034c0d309d1f6d4bea60b75462dc16\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\1aabc48a080b59002539c23eb2d3b586be5b1211\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mihaela Mermezan\Desktop\Agatron\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\1aabc48a080b59002539c23eb2d3b586be5b1211\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\80353bcbb368e537ef1e2555fabb71d1f4b90fae\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\dbbc03c617a8a57dd4dd651780877b4fd0b90375\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\c18ed5cb6797597015e2710f769ca543c2382528\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\2b0f1c655eda22ab9e104ac53d1d394c5c53fb9d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\8f7ba5a4a6dcb0400bf62112d95b198efb929518\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\51c404320a4412f4feb2656e23e80ad94689d3f0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\b8003debc81b1acaf7b3491a4a4a668aec0a2a3c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\6c0f4b8896304769bbf79c7f1cf7817a862bc935\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\aafea28cc380313beb9452266cfa91a608a20b84\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\0d56e9352762203b6d113469a0841efbdfc82955\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\06d81dd290034c0d309d1f6d4bea60b75462dc16\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\1aabc48a080b59002539c23eb2d3b586be5b1211\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Mihaela Mermezan\.android\build-cache\1aabc48a080b59002539c23eb2d3b586be5b1211\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ded1ac1d2106c1d4eddc1baad9b4aac263d9a239\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\18b121a6c82b5155561d47fa979fcc8582930a10\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\43f8b453cc18ca873b5ef030516a097dfb60cf57\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\f6e930fc8d3c0e3b6a4dfc595a5f98f2a9b2e9d4\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ded1ac1d2106c1d4eddc1baad9b4aac263d9a239\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\43f8b453cc18ca873b5ef030516a097dfb60cf57\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\ded1ac1d2106c1d4eddc1baad9b4aac263d9a239\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\71c35a64f48f8804f22bed95e7fe546637ca24fa\output\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7d40d06238e65bb361271abb5d1eefc67fddd97a\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6965a93f0ebdc8647e3e5fce18e11f4ff4c4335e\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c311329d42de6780c2413fdaff54c6aeda5bc627\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\34bdb99162736d98da74c196a9f26581678d9ef0\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\56dae2174c1bb0d543ba1445d1753c2b55c24235\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\34bdb99162736d98da74c196a9f26581678d9ef0\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bc47ac5f9735d7ac795444e69aca89242cb95fc8\output\AndroidManifest.xml:30:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c83064705c7c428476c26fbe50ab0afca01abfcc\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bec46e701a5e1365ceee315044d610c1022fa89a\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bec46e701a5e1365ceee315044d610c1022fa89a\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bec46e701a5e1365ceee315044d610c1022fa89a\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\bec46e701a5e1365ceee315044d610c1022fa89a\output\AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\c42b7238102ce5e9f20485fc9c6cc31451fda629\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6d23e0334dbc04a6239f418f729121ab5405a9a3\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\7dc282221743a37f533acb8a76446de776be77e6\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\6e21592ab89c297253910c7ff05b6a7307ae2332\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5c9732e9f31cf22dc4dbccc33d7153f05d1f5295\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5c9732e9f31cf22dc4dbccc33d7153f05d1f5295\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Mihaela Mermezan\.android\build-cache\5c9732e9f31cf22dc4dbccc33d7153f05d1f5295\output\AndroidManifest.xml:20:20-65

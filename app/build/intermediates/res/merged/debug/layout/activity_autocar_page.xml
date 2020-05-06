@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bus_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.agatron.ascuns.AutocarPage">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="587dp"
+            android:orientation="vertical"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="72dp"
+            app:layout_constraintHorizontal_bias="0.0">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AB-ST-GL-CL-MH-OB  06:00-07:50-12:00-14:20-16:00-18:00-19:30-23:30 Livio Dario
+\n
+OB-MH-CL-GL-ST-AB 05:10-06:40-09:00-13:10-15:10-17:10-18:50-21:10 Livio Dario
+\n
+AB-VN-VJ-CG 07:00-07:30-08:00-09:00-10:00-11:00-13:00-15:00-17:00-20:00 Livio Dario
+\n
+CG-VJ-VN-AB  06:00-06:40-08:00-09:00-10:00-12:00-13:00-15:00-17:00-20:00 Livio Dario
+\n
+AB-LN-SE 07:00-11:30-13:30-15:00-16:30-18:30 Livio Dario
+\n
+SE-LN-AB 06:00-08:30-12:30-13:50-15:30-17:30 Livio Dario
+\n
+AB-SD-ZN 07:00-09:00-11:00-13:00-15:00-17:00 Livio Dario
+\n
+ZN-SD-AB 05:30-06:40-09:00-11:00-12:00-14:30-16:00 Livio Dario"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"/>
+        </LinearLayout>
+
+        <Button
+            android:text="INTRODUCERE DESTINATIE"
+            android:textColor="?attr/colorButtonNormal"
+            android:id="@+id/button33"
+            android:background="@color/colorRed"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout2123"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/coach_icon"
+                android:id="@+id/imageView123"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:text="AUTOCARE"
+                android:textStyle="normal|bold"
+                android:textSize="45sp"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView123" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

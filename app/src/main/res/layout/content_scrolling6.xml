@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ada.smartcitadel.ScrollingActivity2"
+    tools:showIn="@layout/activity_scrolling2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/poza1" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/poza1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="inherit"
+            android:textSize="20sp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+
+            android:text="Obeliscul lui Horea, Clo?ca ?i Cri?an din Alba Iulia este situat pe str. Mihai Viteazul, în fa?a por?ii a treia a ceta?ii Alba Carolina. A fost ridicat în 1937 din ini?iativa Societa?ii ASTRA, cu contribu?ia popula?iei, fiind închinat memoriei conducatorilor rascoalei de la 1784-1785, conduse de Horea, Clo?ca ?i Cri?an.
+\n
+Obeliscul, ridicat în doar câteva luni, a fost inaugurat în prezen?a regelui Carol al II-lea al României ?i a lui Mihai, voievod de Alba Iulia la 14 octombrie 1937.
+\n
+Monumentul, cu înal?imea de 22,5 metri, este opera sculptorului Iosif Fekete, cunoscut ?i ca Iosif Fekete Negrulea, ?i a arhitectului Octavian Mihal?an.
+\n
+Societatea „Pietroasa” din Deva a oferit calcarul de Banpotoc din care a fost înal?at monumentul ?i trahitul, roca mai dura, din care a fost construit soclul acestuia./n
+În interiorul soclului care sprijina obeliscul se afla o celula simbolica cu inscrip?ia: Smerita închinare lui Horea, Clo?ca ?i Cri?an[4], în partea de est, o Victorie Înaripata ?inând în mâna o cununa de lauri, iar în partea de vest un basorelief reprezentându-i de Horea, Clo?ca ?i Cri?an.
+\n
+\n
+Monument istorie\n
+Obeliscul este înscris în Lista monumentelor istorice din jude?ul Alba cu cod LMI AB-III-m-B-00401 sub denumirea Obeliscul închinat memoriei lui Horea, Clo?ca ?i Cri?an.
+\n
+Poarta a II-a a ceta?ii\n
+În 1937, în timpul lucrarilor de ridicare a Obeliscului lui Horea, Clo?ca ?i Cri?an, a fost distrusa poarta a II-a a ceta?ii, amplasata pe cea de-a doua linie de aparare, în capatul de sus al unui culoar construit în rampa. A fost reconstituita în 2010 pe baza fotografiilor-document ?i a schi?elor pastrate la Viena. Cei doi atlan?i ?i leii de pe coronament sunt chiar statuile originale care au fost pastrate la Muzeul Na?ional al Unirii ?i în curtea unei unita?i militare din apropiere.
+\n
+Filatelie\n
+La 1 noiembrie 1984, Po?ta Româna a pus în circula?ie emisiunea filatelica: „200 de ani de la Rascoala populara condusa de Horea, Clo?ca ?i Cri?an”, formata dintr-un timbru cu valoarea nominala de 2 lei pe care este ilustrat obeliscul realizat de Iosif Fekete ?i amplasat în anul 1937 la Alba Iulia, în fa?a Por?ii a III-a a Ceta?ii. " />
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

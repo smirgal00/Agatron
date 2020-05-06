@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ada.smartcitadel.ScrollingActivity16"
+    tools:showIn="@layout/activity_scrolling16">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Statuia ecvestra a lui Mihai Viteazul din Alba Iulia, amplasata īn fa?a palatului princiar din Cetatea Alba Carolina, cu o īnal?ime de 8,46 metri, din care soclul masoara 2 metri, a fost realizata īn bronz de sculptorul Oscar Han ?i inaugurata la 28 noiembrie 1968, cu ocazia aniversarii semicentenarului Unirii Transilvaniei cu Romānia.
+\n
+La ceremonia de inaugurare au participat ?i secretarul general al PCR Nicolae Ceau?escu, prim-ministrul Gheorghe Maurer ?i ?eful Departamentului de propaganda al Comitetului Central al PCR Ion Iliescu.
+\n
+Statuia este īnscrisa īn Lista monumentelor istorice din jude?ul Alba cu codul LMI AB-III-m-B-00402.
+\n
+Istoria devenirii statuii
+\n
+Statuia ecvestra a lui Mihai Viteazul - vedere de ansamblu \n
+Generalul Ion Coman a relatat faptul ca, ini?ial, intrase īn competi?ie pentru Alba Iulia macheta statuii realizata de Marius Butunoiu, urmānd ca aceasta sa fie amplasata lānga Sala Unirii. S-a ridicat ?i obiec?ia ca statuia este cam īnalta fa?a de cladirile din zona, de?i acesta nu era un argument hotarātor, care sa o elimine. Īnsa, fara a ?ine seama de argumente, Nicolae Ceau?escu intervenit, ?i i-a dat cā?tig de cauza lui Oscar Han. Argumentul lui era, mai degraba, de natura sentimentala ?i pornea de la ideea ca Oscar Han, nascut īn 1891, ajunsese la o vārsta destul de īnaintata ?i exista probabilitatea ca aceea sa fie ultima lui lucrare reprezentativa. Astfel ca īn 1968, la Alba Iulia, īn fa?a Palatului Princiar, cu ocazia semicentenarului unirii Transilvaniei cu Romānia, nu a fost dezvelita statuia propusa de Marius Butunoiu, ci aceea realizata de sculptorul Oscar Han. Pentru ca Butunoiu ajunsese īntr-un stadiu destul de avansat cu lucrarea, tot Ceau?escu a propus, īn compensa?ie, ca acest al doilea «Mihai Viteazul» sa fie amplasat fie la Calugareni, unde Sinan Pa?a a fost trāntit de pe cal, fie la ?elimbar, de unde, mai apoi, Mihai Viteazul a pornit spre Alba Iulia. Dupa ce s-a dezbatut mult aceasta alternativa, pāna la urma, Ceau?escu s-a hotarāt sa fie ridicata la Cluj, deoarece statuia aducea un plus de istorie romāneasca acolo, cu speran?a ca Statuia lui Mihai Viteazu din Cluj-Napoca īl va neutraliza, īn planul imaginii pe Matei Corvin, reprezentat īn Ansamblul monumental Matia Corvin din Cluj." />
+
+</android.support.v4.widget.NestedScrollView>

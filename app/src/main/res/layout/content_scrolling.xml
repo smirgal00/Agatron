@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lenovo.agatron.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Biblioteca Batthyaneum"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Catedrala Incoronarii"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Catedrala Sfantul Mihail"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Muzeul National al Unirii"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button9"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Muzeul Principia"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button10"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Obelisc"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button11"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Palatul Apor"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button12"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Poarta 1"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button13"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Poarta 2"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button14"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Poarta 3"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button15"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Poarta 4"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button16"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Sala Unirii"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button17"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Santurile Cetatii Calarie"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button18"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Spanzuratoarea si mainile de la Dealul Furcilor"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button19"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Statuia ecvestra a lui Mihai Viteazu"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button20"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Temnita"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/button21"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="send"
+            android:text="Traseul celor 3 fortificatii"
+            android:textColor="#B36700"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
